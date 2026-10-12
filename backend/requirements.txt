@@ -1,15 +1,13 @@
-fastapi==0.115.0
+fastapi
 
-uvicorn[standard]==0.30.6
+uvicorn[standard]
 
-SQLAlchemy==2.0.35
+sqlalchemy
 
-pymysql==1.1.1
+pymysql
 
-cryptography==43.0.1
+cryptography
 
-python-dotenv==1.0.1
+python-dotenv
 
-pydantic==2.9.2
-
-pydantic-settings==2.5.2
+pydantic-settings

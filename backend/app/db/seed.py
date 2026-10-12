@@ -11,7 +11,6 @@ from sqlalchemy.orm import Session
 from app.db.session import Base, SessionLocal, engine
 from app.models.employee import Employee
 
-
 SAMPLE_EMPLOYEES = [
     {
         "name": "Rahul Sharma",
@@ -110,10 +109,7 @@ def seed() -> None:
         existing = db.query(Employee).count()
 
         if existing > 0:
-            print(
-                f"Employees table already has {existing} rows. "
-                "Skipping seed."
-            )
+            print(f"Employees table already has {existing} rows. " "Skipping seed.")
             return
 
         db.bulk_insert_mappings(Employee, SAMPLE_EMPLOYEES)

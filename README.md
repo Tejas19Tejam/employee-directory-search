@@ -10,7 +10,7 @@ A small internal tool to search and view employees by name or department.
 project-2/
 ├── backend/   # FastAPI service, MySQL access, search API
 ├── frontend/  # React + Vite + Tailwind UI
-└── docs/      # original task brief
+
 ```
 
 ## Setup Steps
